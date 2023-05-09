@@ -1,5 +1,7 @@
+import javax.sound.sampled.SourceDataLine;
+
 /**
- * app
+ * MyNameIs
  */
 public class MyNameIs {
 
@@ -19,5 +21,10 @@ class Vacation {
 }
 
 class HiFriend {
-    
+    public static void main(String[] args) {
+        String greeting = "Hi ";
+        String firstName = "Hampter ";
+        String lastName = "Bampter!";
+        System.out.println(greeting.concat(firstName).concat(lastName));
+    }
 } 
